@@ -200,5 +200,5 @@ function getOtherPeer(peerConnection) {
 }
 
 startBtn.addEventListener('click',startHandle)
-callBtn.addEventListener('click',callBtn)
-hangupBtn.addEventListener('click',hangupBtn)
+callBtn.addEventListener('click',callHandle)
+hangupBtn.addEventListener('click',hangupHandle)
